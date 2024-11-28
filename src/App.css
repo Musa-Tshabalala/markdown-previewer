@@ -1,0 +1,101 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#editor {
+  background-color: #000;
+  color: rgb(0, 200, 0);
+  width: 80vw;
+  height: 200px;
+  border: 5px solid #555;
+  border-top: none;
+  outline: none;
+  font-size: 16px;
+  padding: 15px
+}
+
+#container {
+  background-color: #222;
+  border: 5px solid #555;
+  border-top: none;
+  width: 80vw;
+  box-sizing: border-box;
+}
+
+#preview {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  overflow: auto;
+  padding-left: 10px;
+}
+
+#preview * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#head-background {
+  border: 5px solid #555;
+  margin-bottom: 0;
+  margin-top: 30px;
+  background: linear-gradient(
+    #000,
+    #555
+  );
+  width: 80vw;
+}
+
+#head {
+  color: #777;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#head:hover {
+  color: #888
+}
+
+
+a {
+  text-decoration: none;
+  color: #888;
+  transition: 0.5s ease-in-out;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  transition: 1s ease-in-out;
+}
+
+img:hover {
+  width: 120px;
+  height: 120px;
+  transition: 1s ease-in-out;
+}
+
+code {
+  color: rgb(0, 200, 0);
+  background-color: #000;
+}
+
+pre {
+  color: rgb(0, 200, 0)
+}
+
